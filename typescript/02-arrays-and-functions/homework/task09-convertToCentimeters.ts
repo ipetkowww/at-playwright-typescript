@@ -8,6 +8,5 @@ function convertToCentimeters(inches: number = 1): number {
 const defaultValue: number = convertToCentimeters();
 console.log(`1 inch = ${defaultValue} cm.`);
 
-const inputNumber: number = 30;
-const incToCentimeter: number = convertToCentimeters(inputNumber);
-console.log(`${inputNumber} inch = ${incToCentimeter} cm.`);
+const incToCentimeter: number = convertToCentimeters(30);
+console.log(`30 inch = ${incToCentimeter} cm.`);

@@ -18,13 +18,5 @@ function findLargest(
   return largest;
 }
 
-const inputNumbers: number[] = [2, 33, 29];
-const largestNumber: number = findLargest(
-  inputNumbers[0],
-  inputNumbers[1],
-  inputNumbers[2]
-);
-
-console.log(
-  `The largest number from ${inputNumbers[0]}, ${inputNumbers[1]}, ${inputNumbers[2]} is ${largestNumber}`
-);
+const largestNumber: number = findLargest(2, 33, 29);
+console.log(largestNumber);
